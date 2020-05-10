@@ -1,261 +1,7 @@
-Last login: Fri May  8 12:10:16 on ttys003
-You have new mail.
-#( 05/08/20@12:18PM )( carlos@Carloss-MBP ):~
-   cd ios2020
-#( 05/08/20@12:18PM )( carlos@Carloss-MBP ):~/ios2020
-   cd swift-programming-language
-#( 05/08/20@12:18PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   ls -a
-.                                 .gitignore
-..                                README.md
-.DS_Store                         basic-operators.playground
-.git                              strings-and-characters.playground
-#( 05/08/20@12:18PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	.gitignore
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:19PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git add .gitignore
-#( 05/08/20@12:19PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git commit -m "adding gitignore file"
-[master a05fbc0] adding gitignore file
- 1 file changed, 150 insertions(+)
- create mode 100644 .gitignore
-#( 05/08/20@12:19PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git push origin master
-Enter passphrase for key '/Users/carlos/.ssh/id_rsa': 
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 1.60 KiB | 1.60 MiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0)
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To github.com:Carlos-Blandino/swift-programming-language.git
-   a72ca93..a05fbc0  master -> master
-#( 05/08/20@12:20PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:20PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   vim .gitignore
-#( 05/08/20@12:22PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   .gitignore
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:22PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git add .gitignore
-#( 05/08/20@12:23PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git commit -m "modifying .gitignore"
-[master c55007c] modifying .gitignore
- 1 file changed, 1 insertion(+), 1 deletion(-)
-#( 05/08/20@12:23PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git push origin master
-Enter passphrase for key '/Users/carlos/.ssh/id_rsa': 
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 414 bytes | 414.00 KiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:Carlos-Blandino/swift-programming-language.git
-   a05fbc0..c55007c  master -> master
-#( 05/08/20@12:23PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:23PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git delete strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-git: 'delete' is not a git command. See 'git --help'.
-#( 05/08/20@12:24PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git -help
-unknown option: -help
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-#( 05/08/20@12:24PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:25PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   vim .gitignore
-#( 05/08/20@12:27PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   .gitignore
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:27PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git add .gitignore
-#( 05/08/20@12:27PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git commit -m "adding to gitignore"
-[master 67b15ac] adding to gitignore
- 1 file changed, 2 insertions(+)
-#( 05/08/20@12:28PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:28PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:28PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git rm -help
-usage: git rm [<options>] [--] <file>...
-
-    -n, --dry-run         dry run
-    -q, --quiet           do not list removed files
-    --cached              only remove from the index
-    -f, --force           override the up-to-date check
-    -r                    allow recursive removal
-    --ignore-unmatch      exit with a zero status even if nothing matched
-
-#( 05/08/20@12:29PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   ls
-README.md                         basic-operators.playground        strings-and-characters.playground
-#( 05/08/20@12:30PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   ls -a
-.                                 .git                              basic-operators.playground
-..                                .gitignore                        strings-and-characters.playground
-.DS_Store                         README.md
-#( 05/08/20@12:30PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git rm UserInterfaceState.xcuserstate
-
-fatal: pathspec 'UserInterfaceState.xcuserstate' did not match any files
-#( 05/08/20@12:31PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git rm  strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-error: the following file has local modifications:
-    strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-(use --cached to keep the file, or -f to force removal)
-#( 05/08/20@12:31PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-no changes added to commit (use "git add" and/or "git commit -a")
-#( 05/08/20@12:32PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git rm -f  strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-rm 'strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate'
-#( 05/08/20@12:35PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	deleted:    strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-#( 05/08/20@12:35PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	deleted:    strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-#( 05/08/20@12:36PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git push origin master
-Enter passphrase for key '/Users/carlos/.ssh/id_rsa': 
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 313 bytes | 313.00 KiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To github.com:Carlos-Blandino/swift-programming-language.git
-   c55007c..67b15ac  master -> master
-#( 05/08/20@12:37PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	deleted:    strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-
-#( 05/08/20@12:37PM )( carlos@Carloss-MBP ):~/ios2020/swift-programming-language@master✗✗✗
-   vim .gitignore
 
 # Xcode
-strings-and-characters.playground/playground.xcworkspace/xcuserdata/carlos.xcuserdatad/UserInterfaceState.xcuserstate
-UserInterfaceState.xcuserstate
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
 xcuserdata/
@@ -276,5 +22,70 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-".gitignore" 152L, 3064C
 
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+#
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
